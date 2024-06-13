@@ -500,7 +500,7 @@ main{
 #prinvid div{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 65%;
 }
 
 #prinvid div:nth-child(1){
