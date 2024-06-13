@@ -229,7 +229,7 @@ aside{
 }
 
 aside #expand:checked ~ #barraL{
-    left: 425%;
+    left: -425%;
 }
 
 #expand{
@@ -248,10 +248,8 @@ aside #expand:checked ~ #barraL{
     z-index: 4;
     position: fixed;
     top: 51px;
-    overflow-y: scroll;
-    padding-top: 10px;
     gap: 10px;
-    
+    transition: all 0.2s linear;
 }
 
 #camara{
@@ -485,13 +483,13 @@ main{
 
 #prinvid{
     height: 400px;
-    width: 900px;
+    width: 75%;
     background-color: #F7F7F8;
     position: relative;
     margin-top: 30px;
     left: 10%;
     z-index: 4;
-    margin-left: 110px;
+    margin-left: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -500,7 +498,7 @@ main{
 #prinvid div{
     position: absolute;
     top: 50%;
-    left: 65%;
+    left: 50%;
 }
 
 #prinvid div:nth-child(1){
@@ -649,8 +647,8 @@ main{
 /* Directos que pordrian gustar*/
 .h3canales{
     
-    margin-left: 100px;
-    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-bottom: 2%;
 }
 
 .h3canales a{
@@ -659,8 +657,8 @@ main{
 
 /* lista de streams en directo*/
 .divcanales{
-    width: 90vw;
-    height: 400px;
+    width: 90%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -909,8 +907,8 @@ main{
 /* Categoria de Juegos*/
 
 .div-games{
-    width: 90vw;
-    height: 400px;
+    width: 90%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: start;
